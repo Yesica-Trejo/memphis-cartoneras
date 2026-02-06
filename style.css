@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Barriecito');
+
+
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Barriecito', sans-serif;
   background-color: #f7f3ef;
   color: #333;
 }
 
 header {
-  background-color: #c46a2b;
+  background-color: #c19a6c;
   color: white;
   padding: 40px;
   text-align: center;
