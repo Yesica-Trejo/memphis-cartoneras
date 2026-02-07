@@ -9,11 +9,7 @@
 <body>
 
 <header>
-  <h1 class="color-header">
-    <span>M</span><span>e</span><span>m</span><span>p</span><span>h</span><span>i</span><span>s</span>
-    <span> </span>
-    <span>C</span><span>a</span><span>r</span><span>t</span><span>o</span><span>n</span><span>e</span><span>r</span><span>a</span>
-  </h1>
+  <h1 class="color-header">Memphis Cartoneras</h1>
   <p>Handmade creativity and recycled materials</p>
 </header>
 
@@ -49,23 +45,44 @@ literature and art, to foster literacy, to work in sustainable ways, and to reth
 
 
 <script>
-  const letters = document.querySelectorAll('.color-header span');
+  const headers = document.querySelectorAll('.color-header');
 
-  letters.forEach(letter => {
-    // Random color
-    const randomColor = `hsl(${Math.random() * 360}, 80%, 55%)`;
-    letter.style.color = randomColor;
+  headers.forEach(header => {
+    const text = header.textContent;
+    header.textContent = ''; // Clear original text
 
-    // Random rotation between -15 and 15 degrees
-    const rotation = (Math.random() * 30 - 15) + 'deg';
-    // Random vertical shift between -5 and 5 pixels
-    const shiftY = (Math.random() * 10 - 5) + 'px';
-    // Random scale between 0.9 and 1.2
-    const scale = (Math.random() * 0.3 + 0.9);
+    // Split into letters and wrap each in a span
+    text.split('').forEach(char => {
+      const span = document.createElement('span');
+      span.textContent = char;
 
-    letter.style.transform = `rotate(${rotation}) translateY(${shiftY}) scale(${scale})`;
+      // Random color
+      const randomColor = `hsl(${Math.random() * 360}, 80%, 55%)`;
+      span.style.color = randomColor;
+
+      // Random rotation (-15° to 15°)
+      const rotation = (Math.random() * 30 - 15) + 'deg';
+      // Random vertical shift (-5px to 5px)
+      const shiftY = (Math.random() * 10 - 5) + 'px';
+      // Random scale (0.9 to 1.2)
+      const scale = (Math.random() * 0.3 + 0.9);
+
+      span.style.display = 'inline-block';
+      span.style.transform = `rotate(${rotation}) translateY(${shiftY}) scale(${scale})`;
+
+      // Add text-shadow for “cut-out” look
+      span.style.textShadow = `
+        1px 1px 0 rgba(0,0,0,0.35),
+       -1px 1px 0 rgba(0,0,0,0.35),
+        1px -1px 0 rgba(0,0,0,0.35),
+       -1px -1px 0 rgba(0,0,0,0.35)
+      `;
+
+      header.appendChild(span);
+    });
   });
 </script>
+
 
 <style>
   @keyframes wobble {
@@ -78,10 +95,6 @@ literature and art, to foster literacy, to work in sustainable ways, and to reth
     animation: wobble 1s infinite ease-in-out;
   }
 </style>
-
-
-
-
 
 </body>
 </html>
