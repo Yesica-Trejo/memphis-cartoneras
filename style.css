@@ -4,7 +4,7 @@
 body {
   margin: 0;
   font-family: "Times New Roman", Times, serif;
-  font-size: 
+  font-size: 16px
   background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
   background-color: #f2e2c4;
   color: black;
@@ -16,13 +16,34 @@ body {
   text-align: center;
   background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
   background-color: #f2e2c4;
+  padding: 20px;
 }
 
-nav {
+.color-header span {
+  display: inline-block;
+  padding: 0 2px;
+  position: relative;
+
+  text-shadow: 
+    1px 1px 0 rgba(0,0,0,0.35),
+   -1px 1px 0 rgba(0,0,0,0.35),
+    1px -1px 0 rgba(0,0,0,0.35),
+   -1px -1px 0 rgba(0,0,0,0.35);
+
+  transform: rotate(0deg) translateY(0px);
+}
+
+
+.color-header span:nth-child(1) { transform: rotate(-8deg) translateY(2px) scale(1.1); }
+.color-header span:nth-child(2) { transform: rotate(5deg) translateY(-3px) scale(0.95); }
+.color-header span:nth-child(3) { transform: rotate(-4deg) translateY(1px) scale(1.05); }
+.color-header span:nth-child(4) { transform: rotate(7deg) translateY(-2px) scale(0.9); }
+
+ nav {
   background-color: #3e2f2f;
   text-align: center;
   padding: 10px;
-}
+} 
 
 nav a {
   color: white;
