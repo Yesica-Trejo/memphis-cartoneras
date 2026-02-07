@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Memphis Cartoneras</title>
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
@@ -41,6 +42,19 @@ literature and art, to foster literacy, to work in sustainable ways, and to reth
 <footer>
   <p>© 2026 Cartoneras Art</p>
 </footer>
+
+
+ /* New code */
+<script>
+  const letters = document.querySelectorAll('.color-header span');
+
+  letters.forEach(letter => {
+    const randomColor = `hsl(${Math.random() * 360}, 80%, 55%)`;
+    letter.style.color = randomColor;
+  });
+</script>
+
+
 
 </body>
 </html>
