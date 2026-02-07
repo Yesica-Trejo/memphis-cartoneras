@@ -9,30 +9,12 @@ body {
 }
 
 .color-header {
-  font-family: 'Barriecito', cursive
+  font-family: 'Barriecito', cursive;
   font-size: 4rem;
   text-align: center;
   background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
   background-color: #f2e2c4;
 }
-
-/* Individual letter colors */
-.c1  { color: #d62828; }
-.c2  { color: #f77f00; }
-.c3  { color: #fcbf49; }
-.c4  { color: #90be6d; }
-.c5  { color: #43aa8b; }
-.c6  { color: #4d96ff; }
-.c7  { color: #3a0ca3; }
-.c8  { color: #7209b7; }
-.c9  { color: #f72585; }
-.c10 { color: #8d99ae; }
-.c11 { color: #ef476f; }
-.c12 { color: #06d6a0; }
-.c13 { color: #118ab2; }
-.c14  { color: #f77f00; }
-.c15  { color: #fcbf49; }
-.c16 { color: #90be6d; }
 
 nav {
   background-color: #3e2f2f;
