@@ -11,7 +11,8 @@ body {
   background-color: #c89b55;
 
   /* Layered imperfect texture */
-  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png"),    url("https://www.transparenttextures.com/patterns/paper-fibers.png"), url("https://www.transparenttextures.com/patterns/noise.png");
+  background-image: url(background-color: #cca447;
+background-image: url("https://www.transparenttextures.com/patterns/embossed-paper.png"),    url("https://www.transparenttextures.com/patterns/paper-fibers.png"), url("https://www.transparenttextures.com/patterns/noise.png");
 
   background-repeat: repeat;
   background-blend-mode: multiply, overlay, soft-light;
