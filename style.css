@@ -14,14 +14,11 @@ body {
 
 /* Whole top header with Memphis cartoneras and small sentence */
 .color-header {
-  background-color: #cfa35c;
-  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
   font-family: 'Barriecito', cursive;
   font-size: clamp(2.5rem, 5vw, 4rem);
   text-align: center;
   padding: 20px;
 }
-
 
 /* Individual Letter for Memphis Cartoneras */
 .color-header span {
@@ -46,8 +43,8 @@ body {
 
 /* Small header with about gallery contact */
 nav a {
-  background-color: #3e2f2f;
   color: white;
+  background-color: #3e2f2f;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
