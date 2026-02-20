@@ -14,6 +14,8 @@ body {
 
 /* Whole top header with Memphis cartoneras and small sentence */
 .color-header {
+  background-color: #cca447;
+  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
   font-family: 'Barriecito', cursive;
   font-size: clamp(2.5rem, 5vw, 4rem);
   text-align: center;
