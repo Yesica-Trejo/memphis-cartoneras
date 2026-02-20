@@ -2,6 +2,7 @@
 @import.url('https://www.transparenttextures.com/patterns/cardboard.png');
 
 
+
 body {
   margin: 0;
   font-family: "Times New Roman", Times, serif;
@@ -11,14 +12,18 @@ body {
   color: black;
 }
 
+/* Whole top header with Memphis cartoneras and small sentence */
 .color-header {
   font-family: 'Barriecito', cursive;
   font-size: clamp(2.5rem, 5vw, 4rem);
   text-align: center;
-
+  background-color: #cca447;
+  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
   padding: 20px;
 }
 
+
+/* Individual Letter for Memphis Cartoneras */
 .color-header span {
   display: inline-block;
   padding: 0 2px;
@@ -31,9 +36,6 @@ body {
    -1px -1px 0 rgba(0,0,0,0.35);
 
   transform: rotate(0deg) translateY(0px);
-
-background-color: #cca447;
-background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
 }
 
  nav {
@@ -42,9 +44,10 @@ background-image: url("https://www.transparenttextures.com/patterns/cardboard.pn
   padding: 10px;
 } 
 
+/* Small header with about gallery contact */
 nav a {
-  background-color: #cca447;
-background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+  background-color: #3e2f2f
+  color: white:
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
@@ -52,7 +55,7 @@ background-image: url("https://www.transparenttextures.com/patterns/cardboard.pn
 
 section {
   background-color: rgba(255, 255, 255, 0.85);
-  padding: 40px;
+  padding: 24px;
   margin-bottom: 30px;
   box-shadow: 3px 3px 0px #c9b28c;
 }
