@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "Times New Roman", Times, serif;
-  font-size: 16px;  
+  font-size: 24px;  
   background-color: #f2e2c4;
   text-align: center;
   color: black;
@@ -15,8 +15,7 @@ body {
   font-family: 'Barriecito', cursive;
   font-size: clamp(2.5rem, 5vw, 4rem);
   text-align: center;
-background-color: #cca447;
-background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+
   padding: 20px;
 }
 
@@ -32,6 +31,9 @@ background-image: url("https://www.transparenttextures.com/patterns/cardboard.pn
    -1px -1px 0 rgba(0,0,0,0.35);
 
   transform: rotate(0deg) translateY(0px);
+
+background-color: #cca447;
+background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
 }
 
  nav {
@@ -41,7 +43,8 @@ background-image: url("https://www.transparenttextures.com/patterns/cardboard.pn
 } 
 
 nav a {
-  color: white;
+  background-color: #cca447;
+background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
