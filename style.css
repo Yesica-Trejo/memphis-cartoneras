@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "Times New Roman", Times, serif;
-  font-size: 40px;  
+  font-size: 16px;  
   background-color: #f2e2c4;
   text-align: center;
   color: black;
@@ -15,8 +15,8 @@ body {
   font-family: 'Barriecito', cursive;
   font-size: clamp(2.5rem, 5vw, 4rem);
   text-align: center;
-  background-image: url("https://www.vecteezy.com/photo/38122786-old-brown-cardboard-box-paper-texture-background");
-  background-color: #f2e2c4;
+background-color: #cca447;
+background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
   padding: 20px;
 }
 
