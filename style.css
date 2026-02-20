@@ -7,14 +7,33 @@ body {
   text-align: center;
   color: black;
  
-  background-color: #cfa35c;
+  /* Recycled cardboard base */
+  background-color: #c89b55;
+
+  /* Layered imperfect texture */
   background-image: url("https://www.transparenttextures.com/patterns/cardboard.png"),    url("https://www.transparenttextures.com/patterns/paper-fibers.png"), url("https://www.transparenttextures.com/patterns/noise.png");
 
   background-repeat: repeat;
   background-blend-mode: multiply, overlay, soft-light;
   
-  box-shadow: inset 0 0 100px rgba(0,0,0,0.15);
+  /* uneven worn edges */
+  box-shadow: inset 0 0 100px rgba(0,0,0,0.35);
   
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-image:
+   url("https://www.transparenttextures.com/patterns/paint-splatter.png");
+
+  opacity: 0.35;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+
 }
 
 /* Whole top header with Memphis cartoneras and small sentence */
