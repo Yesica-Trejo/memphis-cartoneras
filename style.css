@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Barriecito');
-@import.url('https://www.transparenttextures.com/patterns/cardboard.png');
-
-
 
 body {
   margin: 0;
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;  
-  background-color: #f2e2c4;
+  background-color: #cfa35c;
+  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+  background-repeat: repeat;
   text-align: center;
+  box-shadow: inset 0 0 100px rgba(0,0,0,0.15);
   color: black;
 }
 
 /* Whole top header with Memphis cartoneras and small sentence */
 .color-header {
-  background-color: #cca447;
+  background-color: #cfa35c;
   background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
   font-family: 'Barriecito', cursive;
   font-size: clamp(2.5rem, 5vw, 4rem);
@@ -46,8 +46,8 @@ body {
 
 /* Small header with about gallery contact */
 nav a {
-  background-color: #3e2f2f
-  color: white:
+  background-color: #3e2f2f;
+  color: white;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
